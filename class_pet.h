@@ -10,6 +10,7 @@ class Pet {
         /* default class constructor */
         Pet(){}; 
 
+        /* init class properties with default values */
         string name = "/0";
         string type = "dog";
         int age = 0;        
@@ -35,27 +36,3 @@ class Pet {
         
     
 };
-
-/*
-void Pet::SetName(string nameIn){
-
-    name = nameIn;
-
-}
-*/
-
-/*
-int Pet::getName(&pet){
-   
-        return *pet.name;
-    
-}
-*/
-/*
-Pet::Pet(){
-    int getAge(&pet){
-        return *pet.age;
-    }
-}
-*/
-
