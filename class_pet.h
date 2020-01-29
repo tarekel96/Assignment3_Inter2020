@@ -17,10 +17,8 @@ class Pet {
         double weight = 0.0;
 
         /* setter functions - methods that set properties for a Pet instance */
-        /* public data setters */
         void SetName(string nameIn); /* nameIn = nameInput, etc. */
         void SetType(string typeIn);
-        /* private data setters */
         void SetAge(int ageIn);
         void SetWeight(double weightIn);
 
