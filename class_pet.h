@@ -16,12 +16,6 @@ class Pet {
         int age = 0;        
         double weight = 0.0;
 
-        /* getter functions - access private data (age, weight) */
-        string GetName();
-        string GetType();
-        int GetAge();
-        double GetWeight();
-
         /* setter functions - methods that set properties for a Pet instance */
         /* public data setters */
         void SetName(string nameIn); /* nameIn = nameInput, etc. */
@@ -29,6 +23,14 @@ class Pet {
         /* private data setters */
         void SetAge(int ageIn);
         void SetWeight(double weightIn);
+
+        /* getter functions - methods that get the properties for a Pet instance */
+        string GetName();
+        string GetType();
+        int GetAge();
+        double GetWeight();
+
+        
         
 
     private:
